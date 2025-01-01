@@ -28,7 +28,7 @@ This project is a web application for booking train and flight tickets. It is de
 # ⚙️ Installation
 
     📥 Clone the repository:
-        git clone https://github.com/frau-azadeh/holidy.git
+        git clone https://github.com/frau-azadeh/train-flight-booking-system.git
 
     📂 Navigate to the project directory:
         cd holiday
