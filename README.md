@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚆✈️ Train and Flight Booking System
 
-## Getting Started
+📝 Project Overview
 
-First, run the development server:
+This project is a web application for booking train and flight tickets. It is designed to provide users with an intuitive interface to search for, compare, and book tickets for trains and flights. Users can select from various available routes, classes, and timings for their travel needs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 🌟 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔍 Search Functionality: Search for available train and flight tickets based on source, destination, and date.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎛️ Dynamic Filtering: Filter options by class, price range, and departure times.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⏱️ Real-Time Data: Fetch live data for train and flight schedules (using mock APIs for now).
 
-## Learn More
+📱 Responsive Design: Optimized for mobile and desktop using TailwindCSS.
 
-To learn more about Next.js, take a look at the following resources:
+# 🛠️ Tech Stack
+⚛️ Frontend Framework: Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎨 Styling: TailwindCSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🗂️ State Management: Redux Toolkit
 
-## Deploy on Vercel
+🌐 HTTP Client: Axios
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📝 Programming Language: TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# ⚙️ Installation
+
+    📥 Clone the repository:
+        git clone https://github.com/frau-azadeh/holidy.git
+
+    📂 Navigate to the project directory:
+        cd holiday
+
+    📦 Install dependencies:
+        npm install
+
+    🚀 Start the development server:
+        npm run dev
+
+    🌐 Open http://localhost:3000 in your browser.
+
+# 📊 Mock Data
+The application uses mock data for train and flight schedules, stored in the mock-data directory.
+These files are loaded and served as static data for testing purposes.
+
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository. Create a new branch: git checkout -b feature/my-feature. Commit your changes: git commit -m "Add my feature". Push to the branch: git push origin feature/my-feature. Submit a pull request.
+
+👩🏻‍💻Author : 🌻 azadeh sharifi soltani 🌻
+
