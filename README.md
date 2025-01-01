@@ -45,7 +45,7 @@ This project is a web application for booking train and flight tickets. It is de
 The application uses mock data for train and flight schedules, stored in the mock-data directory.
 These files are loaded and served as static data for testing purposes.
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository. Create a new branch: git checkout -b feature/my-feature. Commit your changes: git commit -m "Add my feature". Push to the branch: git push origin feature/my-feature. Submit a pull request.
