@@ -1,6 +1,6 @@
 # 🚆✈️ Train and Flight Booking System
 
-📝 Project Overview
+## 📝 Project Overview
 
 This project is a web application for booking train and flight tickets. It is designed to provide users with an intuitive interface to search for, compare, and book tickets for trains and flights. Users can select from various available routes, classes, and timings for their travel needs.
 
