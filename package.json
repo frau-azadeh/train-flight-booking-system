@@ -15,6 +15,7 @@
     "axios": "^1.7.9",
     "axios-mock-adapter": "^2.1.0",
     "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
     "next": "14.2.20",
     "prettier": "^3.5.3",
     "react": "^18",

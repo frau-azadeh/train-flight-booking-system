@@ -45,7 +45,7 @@ const FlightsPage = () => {
   }
 
   return (
-    <div>
+    <div className="mt-36">
       <h1>لیست پروازها</h1>
       <ul>
         {flights.map((flight) => (
