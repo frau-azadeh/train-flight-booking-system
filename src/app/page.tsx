@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "../api/mockApi";
 import Button from "@/components/ui/Button";
+import PostCard from "@/components/ui/PostCard";
 
 type FlightClass = {
   class: "اکونومی" | "بیزنس" | "فرست کلاس"; // نوع کلاس پرواز به‌صورت محدود
@@ -53,9 +54,12 @@ const FlightsPage = () => {
           </li>
         ))}
       </ul>
-      <Button>
-        Refresh
-      </Button>
+        <PostCard>
+          <h2>اطلاعات  پرواز</h2>
+        <Button>
+          Refresh
+        </Button>
+        </PostCard>
     </div>
   );
 };
