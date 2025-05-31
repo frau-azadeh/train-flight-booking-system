@@ -55,10 +55,13 @@ const FlightsPage = () => {
         ))}
       </ul>
         <PostCard>
+          <div className="flex flex-col">
           <h2>اطلاعات  پرواز</h2>
         <Button>
           Refresh
         </Button>
+          </div>
+       
         </PostCard>
     </div>
   );
