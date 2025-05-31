@@ -1,6 +1,8 @@
-'use client'
+"use client";
 import React, { useEffect, useState } from "react";
 import axios from "../api/mockApi";
+import Button from "@/components/ui/Button";
+import PostCard from "@/components/ui/PostCard";
 
 type FlightClass = {
   class: "اکونومی" | "بیزنس" | "فرست کلاس"; // نوع کلاس پرواز به‌صورت محدود
@@ -48,10 +50,17 @@ const FlightsPage = () => {
       <ul>
         {flights.map((flight) => (
           <li key={flight.flight_id}>
-            <strong>{flight.airline}</strong> از {flight.origin} به {flight.destination}
+            <strong>{flight.airline}</strong> از {flight.origin} به{" "}
+            {flight.destination}
           </li>
         ))}
       </ul>
+      <PostCard>
+        <div className="flex flex-col">
+          <h2>اطلاعات پرواز</h2>
+          <Button>Refresh</Button>
+        </div>
+      </PostCard>
     </div>
   );
 };
