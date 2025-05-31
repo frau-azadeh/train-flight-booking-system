@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "../styles/fonts.css";
+import Navbar from "@/components/ui/Navbar";
 
 export const metadata: Metadata = {
   title: "بلیط هواپیما و قطار",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
