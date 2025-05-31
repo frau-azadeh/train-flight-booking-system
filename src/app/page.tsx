@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from "react";
 import axios from "../api/mockApi";
+import Button from "@/components/ui/Button";
 
 type FlightClass = {
   class: "اکونومی" | "بیزنس" | "فرست کلاس"; // نوع کلاس پرواز به‌صورت محدود
@@ -52,6 +53,9 @@ const FlightsPage = () => {
           </li>
         ))}
       </ul>
+      <Button>
+        Refresh
+      </Button>
     </div>
   );
 };
