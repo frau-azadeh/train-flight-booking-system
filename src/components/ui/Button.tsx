@@ -2,7 +2,7 @@ import clsx from "clsx";
 import React, { ButtonHTMLAttributes, ReactNode } from "react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "danger";
+  variant?: "primary" | "secondary" | "danger" | "call";
   size?: "xs" | "md" | "lg";
   children: ReactNode;
 }
@@ -15,6 +15,7 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   const variantClass = {
+    call: "bg-custom hover:bg-custom-hover",
     primary: "bg-blue-500 hover:bg-blue-700",
     secondary: "bg-gray-500 hover:bg-gray-700",
     danger: "bg-red-500 hover:bg-red-700",
