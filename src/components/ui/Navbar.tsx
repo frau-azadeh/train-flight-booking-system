@@ -37,7 +37,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setMenuOpen((prev) => !prev)}
-              className="text-gray-600 hover:text-blue-700 transition"
+              className="text-gray-600 hover:text-yellow-500 transition"
             >
               {menuOpen ? (
                 <X className="w-6 h-6" />
@@ -57,7 +57,7 @@ const Navbar = () => {
                 className={clsx(
                   "px-4 py-2 rounded-lg transition duration-300 font-medium",
                   {
-                    "bg-blue-950 text-white": isActive(href),
+                    "bg-yellow-200 text-gray-700": isActive(href),
                     "text-gray-700 hover:bg-blue-950 hover:text-white":
                       !isActive(href),
                   },
@@ -88,7 +88,7 @@ const Navbar = () => {
         </div>
 
         {menuOpen && (
-          <div className="md:hidden mt-2 pb-4 bg-blue-100 px-4 rounded-md">
+          <div className="md:hidden mt-2 pb-4 bg-yellow-100 px-4 rounded-md">
             {navItem.map(({ href, label }) => (
               <Link
                 key={href}
@@ -97,7 +97,7 @@ const Navbar = () => {
                 className={clsx(
                   "px-4 py-2 rounded-lg transition duration-300 block",
                   {
-                    "bg-blue-950 text-white": isActive(href),
+                    "bg-yellow-200 text-gray-700": isActive(href),
                     "text-gray-700 hover:bg-blue-950 hover:text-white":
                       !isActive(href),
                   },
