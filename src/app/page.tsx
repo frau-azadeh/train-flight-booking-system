@@ -45,7 +45,7 @@ const FlightsPage = () => {
   }
 
   return (
-    <div className="mt-36">
+    <div className="mt-36 max-w-[1200px] mx-auto">
       <h1>لیست پروازها</h1>
       <ul>
         {flights.map((flight) => (
@@ -58,7 +58,9 @@ const FlightsPage = () => {
       <PostCard>
         <div className="flex flex-col">
           <h2>اطلاعات پرواز</h2>
-          <Button>Refresh</Button>
+          <Button variant="call" size="md">
+            Refresh
+          </Button>
         </div>
       </PostCard>
     </div>
