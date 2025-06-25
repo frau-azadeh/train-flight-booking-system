@@ -1,6 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import { Instagram, Linkedin, Phone, Send, Shield, Youtube } from "lucide-react";
+import {
+  Instagram,
+  Linkedin,
+  Phone,
+  Send,
+  Shield,
+  Youtube,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -57,15 +64,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center gap-6 text-gray-600">
-        <Linkedin size={20}/>
-        <Instagram size={20}/>
-        <Shield size={20}/>
-        <Send size={20}/>
-        <Youtube size={20}/>
+        <Linkedin size={20} />
+        <Instagram size={20} />
+        <Shield size={20} />
+        <Send size={20} />
+        <Youtube size={20} />
       </div>
       <div className="flex justify-center mt-6 mb-6 text-sm text-gray-500 ">
-      کلیه حقوق این سرویس (وب‌سایت و اپلیکیشن‌های موبایل) محفوظ و متعلق به
-      شرکت سفرهای همسفر می‌باشد.
+        کلیه حقوق این سرویس (وب‌سایت و اپلیکیشن‌های موبایل) محفوظ و متعلق به
+        شرکت سفرهای همسفر می‌باشد.
       </div>
     </footer>
   );
