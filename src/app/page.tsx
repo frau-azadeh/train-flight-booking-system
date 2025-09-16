@@ -1,8 +1,11 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
-import axios from "../api/mockApi";
+
 import Button from "@/components/ui/Button";
 import PostCard from "@/components/ui/PostCard";
+
+import axios from "../api/mockApi";
 
 type FlightClass = {
   class: "اکونومی" | "بیزنس" | "فرست کلاس"; // نوع کلاس پرواز به‌صورت محدود

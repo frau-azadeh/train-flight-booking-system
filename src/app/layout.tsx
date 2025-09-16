@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import "../styles/fonts.css";
-import Navbar from "@/components/ui/Navbar";
+
 import Footer from "@/components/ui/Footer";
+import Navbar from "@/components/ui/Navbar";
+
+import "../styles/fonts.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "بلیط هواپیما و قطار",
